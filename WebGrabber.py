@@ -30,7 +30,7 @@ def wgetuh(host):
                         if wgetRes not in wgetArr:
                                 wgetArr.append(wgetRes)
         return wgetArr
-
+print ("Example Domain: google.com")
 pingee = input("Enter Domain: ").strip()
 
 if pinguh(pingee) == 0:
